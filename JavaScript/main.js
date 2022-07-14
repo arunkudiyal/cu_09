@@ -103,14 +103,14 @@ const addAndSquare = (num1, num2) => {
 
 // const add = (a, b) => a+b
 
-const add = (a, b) => typeof a === 'number' && typeof b === 'number' ? console.log(a+b) : console.log('NOT POSSIBLE')
+// const add = (a, b) => typeof a === 'number' && typeof b === 'number' ? console.log(a+b) : console.log('NOT POSSIBLE')
 
-add(10, 10)
+// add(10, 10)
 
-add('String One', 'String Two')
+// add('String One', 'String Two')
 
 
-10 > 5 ? console.log('TRUE') : console.log('FALSE')
+// 10 > 5 ? console.log('TRUE') : console.log('FALSE')
 
 // const result1 = addAndSquare(2, 3)
 // const result2 = addAndSquare('String 1', 'String 2')
@@ -135,3 +135,75 @@ add('String One', 'String Two')
 // } else {
 //     console.log('NOT POSSIBLE')
 // }
+
+// OBJECTS - 
+// 1. Object Constructor
+// const myUser = new Object()
+// myUser.name = 'Harry Potter'
+// myUser.email = 'harrypotter@hogwards.edu.uk',
+// myUser.hobbies = ['Getting in trouble', 'Doing Magic']
+
+// 2. Using { }
+const myUser = {
+    name:'Harry Potter',
+    email: 'harrypotter@hogwards.edu.uk',
+    hobbies: ['Getting in trouble', 'Doing Magic'],
+    address: {
+        lane: 'Lane 2',
+        street: 'Street 4',
+        country: 'United Kingdom'
+    }
+}
+
+const users = [ 
+    {
+        name:'Harry Potter',
+        email: 'harrypotter@hogwards.edu.uk',
+        hobbies: ['Getting in trouble', 'Doing Magic'],
+        address: {
+            lane: 'Lane 2',
+            street: 'Street 4',
+            country: 'United Kingdom'
+        }
+    }, 
+    {
+        name:'Harry Potter',
+        email: 'harrypotter@hogwards.edu.uk',
+        hobbies: ['Getting in trouble', 'Doing Magic'],
+        address: {
+        lane: 'Lane 2',
+        street: 'Street 4',
+        country: 'United Kingdom'
+    }
+    }, 
+    {
+        name:'Harry Potter',
+        email: 'harrypotter@hogwards.edu.uk',
+        hobbies: ['Getting in trouble', 'Doing Magic'],
+        address: {
+        lane: 'Lane 2',
+        street: 'Street 4',
+        country: 'United Kingdom'
+    }
+    }, 
+    {
+        name:'Harry Potter',
+        email: 'harrypotter@hogwards.edu.uk',
+        hobbies: ['Getting in trouble', 'Doing Magic'],
+        address: {
+        lane: 'Lane 2',
+        street: 'Street 4',
+        country: 'United Kingdom'
+    }
+    } 
+]
+
+console.log(users)
+
+// Convert JS to JSON
+const response = JSON.stringify(users)
+console.log(response)
+
+// Convert JSON to JS
+const objResults = JSON.parse(response)
+console.log(objResults)
