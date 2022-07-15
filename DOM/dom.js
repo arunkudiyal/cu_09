@@ -86,8 +86,62 @@ const headerTitle = document.all[10]
     
 // })
 
-document.querySelector('#submit-btn').addEventListener('click', (e) => {
-    e.preventDefault()
-    const textValue = document.querySelector('#my-input').value
-    console.log(textValue)
-})
+// document.querySelector('#submit-btn').addEventListener('click', (e) => {
+//     e.preventDefault()
+//     const textValue = document.querySelector('#my-input').value
+//     console.log(textValue)
+// })
+
+// RELATIONSHIPS
+
+// 1. parent
+// console.log( document.querySelector('#heading-one').parentElement.parentElement.parentElement )
+
+// // 2.children
+// console.log( document.querySelector('#main').children )
+
+// siblings
+// #text - Identation
+//console.log( document.querySelector('#my-form').previousSibling )
+//console.log( document.querySelector('#my-form').nextSibling )
+
+// console.log( document.querySelector('#my-form').previousElementSibling.previousElementSibling )
+// console.log( document.querySelector('#my-form').nextElementSibling )
+
+
+// document.querySelector('#heading-one').textContent = 'Add New Items'
+
+// document.querySelector('#heading-one').innerHTML = '<h4>This is the updated List</h4>'
+
+
+// Children
+// console.log( document.querySelector('#items').children )
+// console.log( document.querySelector('#items').firstChild )
+// console.log( document.querySelector('#items').firstElementChild )
+
+// let myDiv = document.createElement('div')
+// myDiv.setAttribute('id', 'my-div-id')
+// myDiv.setAttribute('class', 'my-div-class')
+
+// // Append the text to the elt
+// myDiv.textContent = 'This is my div'
+
+// // Render in the UI
+// document.querySelector('#my-container').appendChild(myDiv)
+
+// console.log(myDiv)
+
+
+// ITEM LISTER APP
+
+// document.querySelector('#submit-btn').addEventListener('click', (e) => {
+//     e.preventDefault()
+//     const textValue = document.querySelector('#my-input').value
+
+//     const li = document.createElement('li')
+//     li.setAttribute('class', 'list-group-item')
+//     li.textContent = textValue
+
+//     // Append the li to the ul
+//     document.querySelector('#items').appendChild(li)
+// })
