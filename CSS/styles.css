@@ -1,0 +1,94 @@
+
+body {
+    background: linear-gradient(to bottom, rgba(165, 52, 235, 0.7), rgba(165, 52, 235, 0.4));
+    color: white;
+}
+
+#my-header {
+    color: brown;
+}
+
+.my-h3 {
+    color: gray;
+}
+
+#my-header:hover {
+    color: blue;
+}
+
+/* Pseudo Selectors */
+#google-link:visited {
+    color: white;
+}
+
+#page-two:visited {
+    color: white;
+}
+
+#my-link:visited {
+    color: white;
+}
+
+/* .items:first-child {
+    color: green;
+}
+
+.items:last-child {
+    color: yellow;
+}
+
+.items:nth-child(3) {
+    color: purple;
+} */
+
+img[src^="https://"] {
+    width: 250px;
+    border: 2px solid red;
+}
+
+img[src*="img"] {
+    width: 500px;
+    border: 5px solid yellow;
+}
+
+#my-items li {
+    color: red;
+}
+
+/* p {
+    color: rgb(52, 235, 232);
+} */
+
+
+/* GRADIENTS */
+#container-one, #container-two {
+    height: 400px;
+    width: 500px;
+    /* background-color: green; */
+    /* background: url(); */
+}
+
+/* 1. Liner Gradient */
+#container-one {
+    background: linear-gradient(135deg, green, yellow, red, orange, blue);
+}
+
+/* 2. Readial Gradient */
+
+/* BACKGROUND */
+#container-three {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj78MIv4S_1OG1VrivVAkJEXxQaMxwlTuOYQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* BOX MODELS */
+#my-form {
+    /* border: width style color */
+    border: 2px solid red;
+    /* padding: 25px; */
+    /* padding: 20px 30px; */
+    padding: 5px 10px 15px 20px;
+
+    margin: 40px;
+}

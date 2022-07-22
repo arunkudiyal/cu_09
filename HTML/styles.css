@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+p {
+    font-size: 2em;
+}
+
+.container-item {
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    font-size: 1.2em;
+    line-height: 200px;
+    text-align: center;
+}

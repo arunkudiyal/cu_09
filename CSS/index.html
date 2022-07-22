@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <title>My First HTML Doc.</title>
+        <!-- Internal CSS -->
+        <!-- <style>
+            h1 {
+                color: blue;
+            }
+        </style> -->
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+
+        <h1 id="my-header">Heading of the Document <span>By: Arun Kudiyal</span> </h1> 
+
+        <p class="demo-class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore. Eaque <b>perferendis consequuntur</b> doloribus animi itaque eos architecto blanditiis. Est atque cum in, rerum distinctio ullam suscipit expedita culpa, ipsam pariatur quae quo porro, delectus itaque eligendi numquam repellat. <strong>Aperiam accusantium adipisci</strong> ea modi officia nihil fugiat dignissimos, magnam inventore!</p>
+
+        <p>Lorem ipsum dolor sit amet, <em>consectetur adipisicing elit</em>. In consequatur nostrum, autem numquam voluptates iste rerum voluptas non obcaecati eos <u>corrupti tempore laborum placeat</u> quibusdam dolore nemo illum, accusamus ipsum et dolorem consectetur quidem cumque! Nostrum sunt saepe sequi aperiam mollitia quaerat omnis accusantium libero consectetur <i>asperiores quas</i> eius molestiae deleniti porro praesentium facere impedit dignissimos, eaque corporis sed ea!</p>
+
+        <p class="demo-class">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur explicabo temporibus amet officiis accusantium sequi quidem atque ratione qui deleniti doloribus praesentium delectus tenetur magnam, adipisci hic officia dolore veritatis, nulla alias eaque voluptate! Recusandae consequatur quasi fuga, fugiat nihil architecto minus nostrum corporis odio.</p>
+
+        <hr />
+        <!-- <h3 style="color: purple;">Links : </h3> -->
+        <h3 class="my-h3">Links : </h3>
+        <a id="google-link" href="https://www.google.com" target="_blank" >click here to go to Google!</a>
+        <br /> <br />
+        <a id="page-two"  href="../HTML/second.html">click here for Page - 2</a> <br /> <br />
+        <a  href="https://www.facebook.com">click here for Page - 2</a> <br /> <br />
+
+        <a id="my-link" href="https://facebook.com">Facebook</a>
+
+        <hr>
+
+        <div id="container-one"></div> <hr>
+        <div id="container-two"></div>
+
+        <div id="container-three" style="width: 80%; height: 400px; background-color: black;"></div>
+
+        <hr>
+
+        <h3 class="my-h3">Images : </h3>
+        <img id="image-one" src="https://fujifilm-x.com/wp-content/uploads/2019/08/xc16-50mmf35-56-ois-2_sample-images03.jpg" alt="Sample Image - 1" />  <br /> <br />
+
+        <img src="./assets/imgs/image-one.jpg" alt=""> <br> <br>
+
+        <div id="container-one"></div> <br>
+        <div id="container-two">
+            <div id="example-cont"></div>
+        </div> <hr>
+
+        <img id="image-three" src="https://iso.500px.com/wp-content/uploads/2014/06/W4A2827-1.jpg" alt="">
+
+        <hr />
+        <h3>Lists : </h3>
+        <h4> <u>Ordered List (ol) : </u> </h4>
+        <!-- Where order of the list items is neccessary -->
+        <ol type="i" >
+            <li class="list-one">List Item - 1</li>
+            <li class="list-one">List Item - 2</li>
+            <li class="list-one">List Item - 3</li>
+            <li class="list-one">List Item - 4</li>
+            <li class="list-one">List Item - 5</li>
+        </ol>
+
+        <h4> <u>Un-Ordered List (ul) : </u> </h4>
+        <!-- Where order of the list items is NOT neccessary - BULLET POINTERS -->
+        <ul id="my-items">
+            <li class="items">List Item - 1</li>
+            <li class="items">List Item - 2</li>
+            <li class="items">List Item - 3</li>
+            <li class="items">List Item - 4</li>
+            <li class="items">List Item - 5</li>
+        </ul>
+
+        <hr />
+
+        <div id="container">
+            <div class="container-items">A</div>
+            <div class="container-items">B</div>
+            <div class="container-items">C</div>
+            <div class="container-items">D</div>
+            <div class="container-items">E</div>
+            <div class="container-items">F</div>
+            <div class="container-items">G</div>
+            <div class="container-items">H</div>
+        </div>
+
+        <hr>
+
+        <h3>HTML Forms : </h3>
+        <form id="my-form">
+            <div>
+                <label>Full Name : </label>
+                <input type="text" placeholder="Enter you full name..." /> 
+            </div>
+            <br />
+
+            <div>
+                <label>Email : </label>
+                <input type="email" placeholder="Enter you email..." />
+            </div> <br />
+
+            <div>
+                <label>Password : </label>
+                <input type="password" placeholder="Enter you password..." />
+            </div> <br />
+
+            <div>
+                <label>Gender : </label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div> <br />
+
+            <div>
+                <label>DOB</label>
+                <input type="date">
+            </div> <br />
+
+            <div>
+                <label>Upload your updated resume (in .pdf OR .doc OR .docs) : </label>
+                <input type="file" accept=".pdf, .doc, .docx" >
+            </div> <br />
+
+            <div>
+                <label>How happy are you today ? </label>
+                <input type="range">
+            </div> <br />
+
+            <div>
+                <label>Feedback : </label>
+                <textarea cols="70" rows="10"></textarea>
+            </div> <br> <br>
+
+            <div>
+                <input id="btn1" type="submit" value="SUBMIT">
+            </div>
+        </form>
+
+        <hr>
+
+        <h3>Tables : </h3>
+        <table border="1" >
+            <thead>
+                <th>Emp Id</th>
+                <th>Emp Name</th>
+                <th>Emp Email</th>
+                <th>Emp Designation</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>EM00765</td>
+                    <td>John Doe</td>
+                    <td>john.doe@gmail.com</td>
+                    <td>SDE - II</td>
+                </tr>
+                <tr>
+                    <td>EM00765</td>
+                    <td>Paul</td>
+                    <td>john.doe@gmail.com</td>
+                    <td>SDE - III</td>
+                </tr>
+                <tr>
+                    <td>EM00765</td>
+                    <td>Logan Paul</td>
+                    <td>john.doe@gmail.com</td>
+                    <td>Tester</td>
+                </tr>
+                <tr>
+                    <td>EM00765</td>
+                    <td>Ben Thomas</td>
+                    <td>john.doe@gmail.com</td>
+                    <td>Java Developer</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <h3>YouTube Video : </h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aWzlQ2N6qqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <hr>
+        <h3>Audio : </h3>
+        <audio src="./assests/audio/audio_one.mp3" controls ></audio>
+
+        <hr>
+        <h3>Google Maps : </h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11662.567701962462!2d78.38537572611773!3d17.496961492301736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1645500955757!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <hr>
+
+        <h3>HTML Enties : </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dicta ab ipsum, nisi qui natus molestias doloribus at incidunt nihil numquam suscipit, rem dolorem sit itaque cum eaque sint fugiat velit nesciunt alias. &pi; Alias error sit est eius fuga asperiores omnis soluta nobis quas laborum? Tempore porro veritatis explicabo laborum, optio repudiandae aliquam magni, temporibus voluptate quod, sint minima voluptates.</p>
+        <hr> <hr>
+        <div> <b>2021, Innomatics Reserach Labs!</b> <br> <i>For more info email us at <a href="mailto:info@innomatics.in">Email Us</a> </i>  </div>
+
+        <script>
+            document.getElementById('first-h3')
+        </script>
+    </body>
+</html>
