@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    width: 25%;
+    margin-right: 25em;
+}
+
+#search {
+    color: black
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#button {
+    font-size: 1.3em;
+}
